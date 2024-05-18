@@ -1,4 +1,4 @@
-﻿using CrossUtilitesWPF.Utilities;
+﻿using CrossUtilitiesWPF.MiscUtilities;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -43,7 +43,7 @@ namespace CrossUtilitesWPF.Behaviors
         private static void DataGrid_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
         {
             DataGrid dataGrid = (DataGrid)sender;
-            ScrollViewer? scrollView = WPFUtilities.FindVisualChild<ScrollViewer>(dataGrid);
+            ScrollViewer? scrollView = MiscWPFUtilities.FindVisualChild<ScrollViewer>(dataGrid);
             if (Keyboard.Modifiers == ModifierKeys.Shift && scrollView != null)
             {
                 e.Handled = true;

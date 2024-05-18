@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Markup;
 
-namespace CrossUtilitesWPF.Utilities
+namespace CrossUtilitiesWPF.MiscUtilities
 {
     /// <summary>
     /// The management class for automatic loading data templates

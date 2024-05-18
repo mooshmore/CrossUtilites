@@ -1,14 +1,15 @@
-﻿using System.Windows;
+﻿using System.Diagnostics;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 
-namespace CrossUtilitesWPF.Utilities
+namespace CrossUtilitiesWPF.MiscUtilities
 {
     /// <summary>
     /// Holds various utilities for use with WPF.
     /// </summary>
-    public static class WPFUtilities
+    public static class MiscWPFUtilities
     {
         /// <summary>
         /// Sets the vertical offset of the given <paramref name="grid"/>.
@@ -208,6 +209,26 @@ namespace CrossUtilitesWPF.Utilities
             }
 
             dataGrid.Focus();
+        }
+
+        /// <summary>
+        /// Sets up automatic opening of all URI links in a browser.
+        /// This method overrides the default behavior of <see cref="System.Windows.Documents.Hyperlink"/> elements
+        /// by registering a class handler for the <see cref="System.Windows.Documents.Hyperlink.RequestNavigateEvent"/>.
+        /// When a hyperlink is clicked, it opens the URI in the default web browser.
+        /// </summary>
+        public static void SetAutoLinkOpening()
+        {
+            EventManager.RegisterClassHandler(
+                typeof(System.Windows.Documents.Hyperlink),
+                System.Windows.Documents.Hyperlink.RequestNavigateEvent,
+                new System.Windows.Navigation.RequestNavigateEventHandler(
+                    (sender, en) => Process.Start(new ProcessStartInfo(
+                        en.Uri.ToString()
+                    )
+                    { UseShellExecute = true })
+                )
+            );
         }
     }
 }
