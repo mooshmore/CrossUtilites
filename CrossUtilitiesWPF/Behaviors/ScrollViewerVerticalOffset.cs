@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace CrossUtilites.WPF.Behaviors
+namespace CrossUtilitesWPF.Behaviors
 {
     /// <summary>
     /// A WPF behaviour that allows binding to a vertical offset of a scrollviewer.

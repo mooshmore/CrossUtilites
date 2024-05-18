@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Threading;
 
-namespace CrossUtilites.WPF.Controls
+namespace CrossUtilitesWPF.Controls
 {
     /// <summary>
     /// A control that behaves exactly like a normal textblock, 

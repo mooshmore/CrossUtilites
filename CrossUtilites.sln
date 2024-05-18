@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossUtilities", "CrossUtilities\CrossUtilities.csproj", "{A84CC1A3-C886-46BA-9D33-D6D9C582BCCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossUtilitiesWPF", "CrossUtilitiesWPF\CrossUtilitiesWPF.csproj", "{75B98963-BD82-4263-83CE-0AEE0A257CD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A84CC1A3-C886-46BA-9D33-D6D9C582BCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A84CC1A3-C886-46BA-9D33-D6D9C582BCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A84CC1A3-C886-46BA-9D33-D6D9C582BCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B98963-BD82-4263-83CE-0AEE0A257CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B98963-BD82-4263-83CE-0AEE0A257CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B98963-BD82-4263-83CE-0AEE0A257CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B98963-BD82-4263-83CE-0AEE0A257CD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,7 +2,7 @@
 using System.Windows.Data;
 using System.Windows.Media.Animation;
 
-namespace CrossUtilites.WPF.Behaviors
+namespace CrossUtilitesWPF.Behaviors
 {
     /// <summary>
     /// Supplies attached properties that provides visibility of animations

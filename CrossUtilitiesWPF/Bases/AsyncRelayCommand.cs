@@ -1,6 +1,6 @@
 ﻿using System.Windows.Input;
 
-namespace CrossUtilites.WPF.Bases
+namespace CrossUtilitesWPF.Bases
 {
     /// <summary>
     /// A asynchronous relay command for XAML Binding.

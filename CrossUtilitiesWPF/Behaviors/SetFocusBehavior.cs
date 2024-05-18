@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace CrossUtilites.WPF.Behaviors
+namespace CrossUtilitesWPF.Behaviors
 {
     /// <summary>
     /// Provides a behavior to set focus on a control by setting the <see cref="FocusProperty"/> to true.

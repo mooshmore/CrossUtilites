@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace CrossUtilites.WPF.Behaviors
+namespace CrossUtilitesWPF.Behaviors
 {
     /// <summary>
     /// A behavior for a textBox that selects all text inside of the textbox when it gets focus.

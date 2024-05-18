@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Data;
 
-namespace CrossUtilites.WPF.Converters
+namespace CrossUtilitesWPF.Converters
 {
     /// <summary>
     /// Converts a numeric value to a visibility.

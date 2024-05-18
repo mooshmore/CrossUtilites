@@ -3,7 +3,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 
-namespace CrossUtilites.WPF.Utilities
+namespace CrossUtilitesWPF.Utilities
 {
     /// <summary>
     /// Holds various utilities for use with WPF.

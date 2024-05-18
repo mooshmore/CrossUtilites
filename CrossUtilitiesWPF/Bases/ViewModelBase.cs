@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace CrossUtilites.WPF.Bases
+namespace CrossUtilitesWPF.Bases
 {
     /// <summary>
     /// A base for view models.

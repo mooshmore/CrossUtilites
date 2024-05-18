@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows.Controls;
 using System.Windows.Data;
 
-namespace CrossUtilites.WPF.Converters
+namespace CrossUtilitesWPF.Converters
 {
     /// <summary>
     /// A WPF functionality that allows to convert a Current Cell to a cells bound value.

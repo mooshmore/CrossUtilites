@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Input;
 
-namespace CrossUtilites.WPF.Behaviors
+namespace CrossUtilitesWPF.Behaviors
 {
     /// <summary>
     /// Provides an attached behavior for handling the Window.Closing event and executing a specified command.

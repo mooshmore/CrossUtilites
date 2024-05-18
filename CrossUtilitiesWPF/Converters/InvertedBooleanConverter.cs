@@ -1,6 +1,6 @@
 ﻿using System.Windows.Data;
 
-namespace CrossUtilites.WPF.Converters
+namespace CrossUtilitesWPF.Converters
 {
     /// <summary>
     /// Converter for inverting the boolean value.

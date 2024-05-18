@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using System.Windows.Data;
 
-namespace CrossUtilites.WPF.Converters
+namespace CrossUtilitesWPF.Converters
 {
     /// <summary>
     /// A converter for command binding parameters allowing to use multiple parameters for a single command.

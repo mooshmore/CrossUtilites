@@ -1,9 +1,9 @@
-﻿using CrossUtilites.WPF.Utilities;
+﻿using CrossUtilitesWPF.Utilities;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-namespace CrossUtilites.WPF.Behaviors
+namespace CrossUtilitesWPF.Behaviors
 {
     /// <summary>
     /// Enables horizontal scrolliing with a scroll wheel for dataGrids when holding the shift key.
