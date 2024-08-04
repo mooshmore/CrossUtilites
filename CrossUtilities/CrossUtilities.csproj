@@ -4,6 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Title>CrossUtilities</Title>
+    <Authors>mooshmore</Authors>
+    <RepositoryUrl>https://github.com/mooshmore/CrossUtilites</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Utilities class library for TurtleToastService and other projects.</Description>
+    <PackageTags>C#;Library</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

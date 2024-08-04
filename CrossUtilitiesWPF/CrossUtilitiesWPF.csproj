@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <ImplicitUsings>enable</ImplicitUsings>
+	<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+	<Title>CrossUtilitiesWPF</Title>
+	<Authors>mooshmore</Authors>
+	<RepositoryUrl>https://github.com/mooshmore/CrossUtilites</RepositoryUrl>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<Description>WPF utilities class library for TurtleToastService and other projects.</Description>
+	<PackageTags>C#;WPF;Library</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
